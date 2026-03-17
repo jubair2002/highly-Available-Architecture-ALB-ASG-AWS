@@ -15,7 +15,7 @@ This project demonstrates a highly available web architecture on AWS using an **
 
 The system distributes traffic across instances in multiple AZs. If one AZ or instance fails, traffic is routed to healthy instances in other AZs. When traffic increases, the ASG launches new instances automatically; when traffic drops, it scales in.
 
-![System Architecture](img/systemArchitecture.jpg)
+![System Architecture](img/systemArchitecture.png)
 
 ## Steps
 
